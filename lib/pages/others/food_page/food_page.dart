@@ -78,7 +78,7 @@ class FoodPage extends StatelessWidget {
                             Card(
                               elevation: 5,
                               margin: EdgeInsets.zero,
-                              shape: CircleBorder(),
+                              shape: const CircleBorder(),
                               child: CircleAvatar(
                                 backgroundColor: Colors.white,
                                 child: Text(
@@ -132,7 +132,7 @@ class FoodPage extends StatelessWidget {
                             Card(
                               elevation: 5,
                               margin: EdgeInsets.zero,
-                              shape: CircleBorder(),
+                              shape: const CircleBorder(),
                               child: CircleAvatar(
                                 backgroundColor: Colors.white,
                                 child: Text(
@@ -186,7 +186,7 @@ class FoodPage extends StatelessWidget {
                             Card(
                               elevation: 5,
                               margin: EdgeInsets.zero,
-                              shape: CircleBorder(),
+                              shape: const CircleBorder(),
                               child: CircleAvatar(
                                 backgroundColor: Colors.white,
                                 child: Text(
@@ -240,7 +240,7 @@ class FoodPage extends StatelessWidget {
                             Card(
                               elevation: 5,
                               margin: EdgeInsets.zero,
-                              shape: CircleBorder(),
+                              shape: const CircleBorder(),
                               child: CircleAvatar(
                                 backgroundColor: Colors.white,
                                 child: Text(
@@ -326,11 +326,11 @@ class FoodPage extends StatelessWidget {
               'Reciepe Preparation',
               style: TextStyle(fontSize: 20.spMax, fontWeight: FontWeight.bold),
             ),
-            Container(
+            SizedBox(
               height: 200.h,
               width: double.infinity,
               child: ListView.builder(
-                  padding: EdgeInsets.only(top: 10),
+                  padding: const EdgeInsets.only(top: 10),
                   itemCount: data['steps'].length,
                   itemBuilder: (context, index) {
                     return Column(
