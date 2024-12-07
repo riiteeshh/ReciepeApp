@@ -1,16 +1,3 @@
 # reciepe_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1733561925](https://github.com/user-attachments/assets/a6b45cc3-30e8-46b1-a261-a8747255ebfc)
+![Screenshot_1733561931](https://github.com/user-attachments/assets/42bb7626-7ba9-465d-ae55-0337b1e947d3)
